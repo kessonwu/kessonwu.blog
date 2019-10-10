@@ -7,11 +7,11 @@ description: "not yet."
 keyword: "Android, git, java"
 url: "http://kessonwu.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/kessonwu/kessonwu.github.io.gitt" # you code repository
+github_repo: "https://github.com/kessonwu/kessonwu.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "stand for yourself"
+sidebar-about-description: "Stand for yourself."
 sidebar-avatar: /img/about-KW-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
