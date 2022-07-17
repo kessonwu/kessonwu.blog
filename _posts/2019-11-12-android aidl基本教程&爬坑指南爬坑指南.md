@@ -71,7 +71,8 @@ interface IBusinessInfoService {
 严重注意：
 方法不能重载
 有@nullable修饰，但没有@nonnull
-非基本数据类型方法参数需指定数据流向in、out 或 inout，基本数据累心默认都是in，包括String
+oneway表示异步调用，oneway只能修饰void方法，表示不需要等待服务端执行完毕
+非基本数据类型方法参数需指定数据流向in、out 或 inout，基本数据类型默认都是in，包括String
 
 #make目录
 一般用Studio的make project/module就行，会生成对应类，比如马上要用到的IBusinessInfoService.Stub
